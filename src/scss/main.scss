@@ -1,0 +1,43 @@
+@import "variables";
+@import "mixins";
+@import "buttons";
+@import "normalize";
+@import "index";
+
+@font-face {
+  font-family: 'Exo Medium';
+  src: url('../fonts/exo-medium-webfont.woff2') format('woff2'),
+       url('../fonts/exo-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo Thin';
+  src: url('../fonts/exo-thin-webfont.woff2') format('woff2'),
+       url('../fonts/exo-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Exo Regular';
+  src: url('../fonts/exo-regular-webfont.woff2') format('woff2'),
+       url('../fonts/exo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+       url('../fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family:$font-primary-regular;
+  font-size:16px;
+}
